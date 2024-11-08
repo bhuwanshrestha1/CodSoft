@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page | BookTrip</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#">BOOK<span>TRIP</span></a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+             <span> <i class="bi bi-list"></i></span>  
+            </div>
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Package</a></li>
+                <li><a href="#">Flight</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav_btns">
+                <button class="btn sign__up">SignUp</button>
+                <button class="btn sign__in">SignIn</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <header class="header_container">
+        <div class="header_image">
+            <div class="header_image_card header_image_card-1">
+                <span><i class="bi bi-key"></i></span>
+                Hotel Booking
+            </div>
+            <div class="header_image_card header_image_card-2">
+                <span><i class="bi bi-passport"></i></span> <!-- Corrected class name -->
+                Flight Tickets
+            </div>
+            <div class="header_image_card header_image_card-3">
+                <span><i class="bi bi-calendar3-event"></i></span>
+                Local Events
+            </div>
+            <div class="header_image_card header_image_card-4">
+                <span><i class="bi bi-map"></i></span>
+                Tour Guide
+            </div>
+            <img class="header_img" src="./image2.png" alt="">
+        </div>
+
+     </header>
+
+     <div class="header_content">
+        <h1>LET'S GO! <br> ADVENTURE IS WAITING FOR YOU <br> PLAN YOUR NEXT ADVENTURE WITH US </h1>
+        <p> Ready to embark on a journey filled with unforgettable memories? Whether you're dreaming of a tranquil beach escape, an adventurous mountain trek, or exploring hidden gems in a bustling city, we’re here to make it happen. Simply fill out the form below, and let us take care of the rest. From flights and accommodations to curated local experiences, we’ll tailor your trip to fit your every desire.
+            
+            Start your journey today—because to travel is to truly live. Let’s make your next adventure extraordinary! 🌍✈️🌴
+            
+        </p>
+    </div>
+    <br>
+    <div class="contact_section">
+        <h2>Contact Us</h2>
+        <form class="contact_form" action="#" method="POST">
+           
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+            <button type="submit" class="submit_btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
